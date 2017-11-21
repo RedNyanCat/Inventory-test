@@ -1,0 +1,21 @@
+﻿/*
+START TO DO list:
+
+|| exporting to GITHUB as a project so I do not lose all my progress :)
+
+1)  multiple player support (on one device) <-- started 21st November 2017 @ 17:42:33 || status: NOT COMPLETE
+2)  optimisation <-- tarted 21st November 2017 @ 17:35:12 || status: HALF COMPLETE
+3)  game difficulty
+4)  add in more interactive game (add in commands like; !heal (heals 1.0 but takes 1.0 food, exc...)
+5)  create more entity types and add support for more events being called over gameManager
+6)  update gameManager for difficulty optimisation
+7)  create actual events in gameManager that can be called and stopped
+8)  more optimisation
+9)  saving stats
+10) start creating acutal storyline / story events
+11) more optimisation
+12) mob behaviours
+13) more optimisation
+
+END TO DO LIST
+*/

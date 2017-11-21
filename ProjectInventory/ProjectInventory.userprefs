@@ -1,1 +1,19 @@
-﻿<Properties StartupItem="ProjectInventory.csproj" />
+﻿<Properties StartupItem="ProjectInventory/ProjectInventory.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ProjectInventory/Program.cs">
+    <Files>
+      <File FileName="ProjectInventory/Program.cs" Line="7" Column="45" />
+      <File FileName="ProjectInventory/PlayerManager.cs" Line="53" Column="9" />
+      <File FileName="ProjectInventory/EntityManager.cs" Line="193" Column="22" />
+      <File FileName="ProjectInventory/CreateNewPlayer.cs" Line="65" Column="4" />
+      <File FileName="ProjectInventory/CreateNewEntity.cs" Line="41" Column="38" />
+      <File FileName="ProjectInventory/InventoryManager.cs" Line="33" Column="22" />
+      <File FileName="ProjectInventory/ItemCreator.cs" Line="1" Column="1" />
+      <File FileName="ProjectInventory/Type.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
