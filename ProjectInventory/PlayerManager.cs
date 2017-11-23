@@ -245,6 +245,100 @@ namespace ProjectInventory
 
 		}
 
+		//IN TESTING, REMOVE IF INVALID
+
+		public void removePartItem(Item it, int i){
+
+			inv.getInventory().Remove (it);
+
+			if (inv.getInventory().Contains (it) /*&& i >= it.getAmount()*/) {
+
+				it.decreaseAmount (i);
+				inv.getInventory().Add (it);
+
+			}
+
+		}
+
+		public void addPartItem(Item it, int i){
+
+			inv.getInventory().Remove (it);
+
+			if (inv.getInventory().Contains (it) /*&& i >= 0*/) {
+
+				it.addAmount (i);
+				inv.getInventory().Add (it);
+
+			}
+
+		}
+
+		public bool removePartItemBool(Item it, int i){
+
+			inv.getInventory().Remove (it);
+
+			if (inv.getInventory().Contains (it) /*&& i >= it.getAmount()*/) {
+
+				it.decreaseAmount (i);
+				inv.getInventory().Add (it);
+
+				return true;
+
+			}
+
+			return false;
+
+		}
+
+		public bool addPartItemBool(Item it, int i){
+
+			inv.getInventory().Remove (it);
+
+			if (inv.getInventory().Contains (it) /*&& i >= 0*/) {
+
+				it.addAmount (i);
+				inv.getInventory().Add (it);
+
+				return true;
+
+			}
+
+			return false;
+
+		}
+
+		public Item removePartItemReturn(Item it, int i){
+
+			inv.getInventory().Remove (it);
+
+			if (inv.getInventory().Contains (it) /*&& i >= it.getAmount()*/) {
+
+				it.decreaseAmount (i);
+				inv.getInventory().Add (it);
+
+			}
+
+			return it;
+
+		}
+
+		public Item addPartItemReturn(Item it, int i){
+
+			inv.getInventory().Remove (it);
+
+			if (inv.getInventory().Contains (it) /*&& i >= 0*/) {
+
+				it.addAmount (i);
+				inv.getInventory().Add (it);
+
+			}
+
+			return it;
+
+		}
+
+		//END
+
 	}
 
 }

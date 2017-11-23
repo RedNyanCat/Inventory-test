@@ -1,19 +1,24 @@
-﻿<Properties StartupItem="ProjectInventory/ProjectInventory.csproj">
+﻿<Properties StartupItem="ProjectInventory.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ProjectInventory/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TO DO.txt">
     <Files>
-      <File FileName="ProjectInventory/Program.cs" Line="7" Column="45" />
-      <File FileName="ProjectInventory/PlayerManager.cs" Line="53" Column="9" />
-      <File FileName="ProjectInventory/EntityManager.cs" Line="193" Column="22" />
-      <File FileName="ProjectInventory/CreateNewPlayer.cs" Line="65" Column="4" />
-      <File FileName="ProjectInventory/CreateNewEntity.cs" Line="41" Column="38" />
-      <File FileName="ProjectInventory/InventoryManager.cs" Line="33" Column="22" />
-      <File FileName="ProjectInventory/ItemCreator.cs" Line="1" Column="1" />
-      <File FileName="ProjectInventory/Type.cs" Line="1" Column="1" />
+      <File FileName="Program.cs" Line="165" Column="7" />
+      <File FileName="Type.cs" Line="5" Column="38" />
+      <File FileName="PlayerManager.cs" Line="218" Column="58" />
+      <File FileName="ItemCreator.cs" Line="38" Column="5" />
+      <File FileName="InventoryManager.cs" Line="24" Column="3" />
+      <File FileName="GameManager.cs" Line="115" Column="71" />
+      <File FileName="EntityType.cs" Line="5" Column="39" />
+      <File FileName="EntityManager.cs" Line="8" Column="2" />
+      <File FileName="CreateNewPlayer.cs" Line="71" Column="4" />
+      <File FileName="CreateNewEntity.cs" Line="39" Column="129" />
+      <File FileName="TO DO.txt" Line="16" Column="22" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/alexanderhill/Projects/ProjectInventory/ProjectInventory/EntityManager.cs" line="7" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

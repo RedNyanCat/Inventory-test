@@ -13,6 +13,8 @@ namespace ProjectInventory
 
 			p.calculateInstance ();
 
+			p.getInventoryManager ().setPlayerHolder (p);
+
 			return p;
 
 		}
@@ -22,6 +24,8 @@ namespace ProjectInventory
 			Player p =  new Player (5.00, 5.00, 0.50, new InventoryManager (items), name);
 
 			p.calculateInstance ();
+
+			p.getInventoryManager ().setPlayerHolder (p);
 
 			return p;
 
@@ -33,6 +37,8 @@ namespace ProjectInventory
 
 			p.calculateInstance ();
 
+			p.getInventoryManager ().setPlayerHolder (p);
+
 			return p;
 
 		}
@@ -42,6 +48,8 @@ namespace ProjectInventory
 			Player p = new Player (health, hunger, 0.50, new InventoryManager (items), name);
 
 			p.calculateInstance ();
+
+			p.getInventoryManager ().setPlayerHolder (p);
 
 			return p;
 
@@ -53,6 +61,8 @@ namespace ProjectInventory
 
 			p.calculateInstance ();
 
+			p.getInventoryManager ().setPlayerHolder (p);
+
 			return p;
 
 		}
@@ -63,6 +73,8 @@ namespace ProjectInventory
 
 			p.calculateInstance ();
 
+			p.getInventoryManager ().setPlayerHolder (p);
+
 			return p;
 
 		}
@@ -72,6 +84,8 @@ namespace ProjectInventory
 			Player p =  new Player (health, hunger, 0.50, new InventoryManager (new List<Item> ()), name);
 
 			p.calculateInstance ();
+
+			p.getInventoryManager ().setPlayerHolder (p);
 
 			return p;
 

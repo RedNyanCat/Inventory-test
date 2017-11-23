@@ -8,6 +8,8 @@ namespace ProjectInventory
 	{
 
 		private List<Item> inv = new List<Item>(); //the List of items (empty)
+
+		private Player p;
 		
 		public InventoryManager (List<Item> starterInv) //starter inventory setting
 		{
@@ -19,6 +21,12 @@ namespace ProjectInventory
 		public void InventoryAdd(Item i){ //adding an itemstack to the inventory
 
 			inv.Add (i);
+
+		}
+
+		public void setPlayerHolder(Player p){
+
+			this.p = p;
 
 		}
 
@@ -42,15 +50,31 @@ namespace ProjectInventory
 
 		public void displayInventory(){ //displaying the inventory (with printing to the console)
 
-			Console.WriteLine ("\n"+"*************************");
+			if (p == null) {
 
-			foreach (Item item in inv) {
+				Console.WriteLine ("\n" + "* ENTITYS's Inventory *"); //*****************
 
-				Console.WriteLine ("Type: " + item.getType() + ", Amount: " + item.getAmount());
+				foreach (Item item in inv) {
+
+					Console.WriteLine ("Type: " + item.getType () + ", Amount: " + item.getAmount ());
+
+				}
+
+				Console.WriteLine ("*************************" + "\n");
+
+			} else {
+
+				Console.WriteLine ("\n" + "* " + p.getName () + "'s Inventory *"); //*****************
+
+				foreach (Item item in inv) {
+
+					Console.WriteLine ("Type: " + item.getType () + ", Amount: " + item.getAmount ());
+
+				}
+
+				Console.WriteLine ("*************************" + "\n");
 
 			}
-
-			Console.WriteLine ("*************************"+"\n");
 
 		}
 

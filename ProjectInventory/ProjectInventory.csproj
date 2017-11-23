@@ -46,6 +46,8 @@
     <Compile Include="EntityType.cs" />
     <Compile Include="GameManager.cs" />
     <Compile Include="CreateNewEntity.cs" />
+    <Compile Include="DifficultyLevels.cs" />
+    <Compile Include="DifficultySettings.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
